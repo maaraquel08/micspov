@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
+    "@vercel/blob": "^2.0.0",
     "lucide-react": "^0.562.0",
     "next": "16.1.1",
     "postcss": "^8.5.6",

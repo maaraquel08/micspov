@@ -6,11 +6,11 @@ A modern photography portfolio website built with Next.js 16, Tailwind CSS v4, a
 
 ## Features
 
-- Responsive photography gallery with grid layout
-- Social media links (Instagram and easily extensible)
-- Clean, minimal design focused on showcasing photography
-- Optimized images with Next.js Image component
-- Support for external image URLs
+-   Responsive photography gallery with grid layout
+-   Social media links (Instagram and easily extensible)
+-   Clean, minimal design focused on showcasing photography
+-   Optimized images with Next.js Image component
+-   Support for external image URLs
 
 ## Getting Started
 
@@ -36,12 +36,12 @@ Edit `src/lib/photos.ts` to add your photography images:
 
 ```typescript
 export const photos: Photo[] = [
-  {
-    src: "https://your-image-url.com/image.jpg",
-    alt: "Description of your photo",
-    title: "Photo Title",
-  },
-  // Add more photos...
+    {
+        src: "https://your-image-url.com/image.jpg",
+        alt: "Description of your photo",
+        title: "Photo Title",
+    },
+    // Add more photos...
 ];
 ```
 
@@ -51,21 +51,21 @@ Edit `src/components/social-links.tsx` to update your social media links:
 
 ```typescript
 const socialLinks: SocialLink[] = [
-  {
-    name: "Instagram",
-    url: "https://instagram.com/yourusername",
-    icon: <Instagram className="w-5 h-5" />,
-  },
-  // Add more social links...
+    {
+        name: "Instagram",
+        url: "https://instagram.com/yourusername",
+        icon: <Instagram className="w-5 h-5" />,
+    },
+    // Add more social links...
 ];
 ```
 
 ## Tech Stack
 
-- **Next.js 16** - React framework with App Router
-- **Tailwind CSS v4** - Utility-first CSS framework
-- **TypeScript** - Type-safe JavaScript
-- **Lucide React** - Icon library
+-   **Next.js 16** - React framework with App Router
+-   **Tailwind CSS v4** - Utility-first CSS framework
+-   **TypeScript** - Type-safe JavaScript
+-   **Lucide React** - Icon library
 
 ## Build
 
