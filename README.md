@@ -1,5 +1,7 @@
 # Micspov - Photography Portfolio
 
+Portfolio of my Photography Shots
+
 A modern photography portfolio website built with Next.js 16, Tailwind CSS v4, and TypeScript.
 
 ## Features
